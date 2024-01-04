@@ -48,7 +48,7 @@ def parsing_google(search_response: str) -> list:
                 list_urls.append(el)  # последний элемент содержит None
         except:
             pass
-    return list_urls[:3]
+    return list_urls[:2]
 
 
 def parsing_yandex(search_response: str) -> list:
